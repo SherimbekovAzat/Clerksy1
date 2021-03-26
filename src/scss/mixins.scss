@@ -1,0 +1,12 @@
+// @mixin font {
+//     color: $color-green;
+//     font-weight: 600px;
+//     font-family: 'Josefin Sans',sans-serif;
+//     font-size: 48px;
+// }
+@mixin font($color,$size,$weight,$family){
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+}

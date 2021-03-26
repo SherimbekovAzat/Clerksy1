@@ -1,0 +1,8 @@
+@media screen and (max-width: 900px) {
+  .header__logo {
+    margin: 0 auto;
+    -webkit-box-pack: none;
+        -ms-flex-pack: none;
+            justify-content: none;
+  }
+}
