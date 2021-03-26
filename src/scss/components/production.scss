@@ -1,0 +1,26 @@
+.production{
+    background-color: $color-green;
+    &__title{
+        @include font($color-white,48px,600,'Josefin Sans');
+        text-align: center;
+        padding-top: 66px;
+    }
+    &__TopText{
+        display: block;
+        @include font($color-white,18px,normal,'Noto Sans');
+        text-align:center;
+        margin-top: 28px
+    }
+    &__BottomText{
+        @include font($color-white,18px,normal,'Noto Sans');
+        text-align:center;
+        display: block;
+        margin: 6px 0 154px 0;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        margin: 68px auto 0 auto;
+    
+    }
+}
