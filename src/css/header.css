@@ -1,8 +1,11 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) {
+  .header__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .header__logo {
-    margin: 0 auto;
-    -webkit-box-pack: none;
-        -ms-flex-pack: none;
-            justify-content: none;
+    margin-bottom: 25px;
   }
 }
