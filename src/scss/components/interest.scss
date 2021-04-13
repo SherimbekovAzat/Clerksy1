@@ -1,6 +1,6 @@
 .interest{
     padding: 120px 0;
-    background-color: $color-milk;
+    background-color: $color-white;
     &__title{
         text-align: center;
     }
@@ -25,6 +25,11 @@
         background-color: #FBFAF7;
         padding: 50px 40px;
         border-radius: 15px;
+        margin: 0 20px 
+    }
+    &__item:hover{
+        cursor: pointer;
+        transform: translateY(18px)
     }
     &__link{
         @include font($color-green, 16px, normal, $font-noto);

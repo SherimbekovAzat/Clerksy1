@@ -1,0 +1,11 @@
+.book {
+  padding: 125px 0 115px;
+}
+
+.book__title {
+  text-align: center;
+}
+
+.book__description {
+  text-align: center;
+}

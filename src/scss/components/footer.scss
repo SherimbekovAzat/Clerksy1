@@ -1,0 +1,29 @@
+.footer{
+    padding: 50px 0 25px;
+    &__row{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        @include font($color-green,24px,600,$font-jose);
+        margin-top: 15px;
+    }
+    &__icons{
+        display: flex;
+        margin-top: 15px;
+    }
+    &__link{
+        margin-left: 14px;
+    }
+    &__line{
+        border-bottom:4px solid $color-milk ;
+        border-radius: 25px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 25px
+    }
+    &__navlink{
+        @include font($color-lightGreen,14px,normal,$font-noto);
+        margin-left: 14px;
+    }
+}
