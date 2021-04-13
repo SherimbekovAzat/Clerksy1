@@ -1,6 +1,12 @@
-@media screen and (max-width:900px){
-    .header__logo{
-        margin: 0 auto;
-        justify-content: none;
+
+@media screen and(max-width:750px) {
+  .header {
+    &__row {
+      flex-direction: column;
     }
+    &__logo {
+      margin-bottom: 25px;
+    }
+  }
 }
+

@@ -1,23 +1,47 @@
 .human{
     padding: 130px 0 115px;
+<<<<<<< HEAD
     background-color: $color-white;
+=======
+    background-color: $color-bg;
+>>>>>>> 6b1160f54bfc05c10c6a0541e27635d8a56b7f72
     &__row{
         align-items: center;
     }
     &__title{
+<<<<<<< HEAD
         @include font($color-green,48px,600,'Josefin Sans');
         margin-bottom:25px;
     }
     &__description{
         @include font($color-green,18px,normal,'Noto Sans');
+=======
+        @include font($color-green,48px, 600, $font-jose);
+        margin-bottom: 25px;
+        max-width: 365px;
+    }
+    &__description{
+        @include font($color-green, 18px, normal, $font-noto);
+        max-width: 395px;
+>>>>>>> 6b1160f54bfc05c10c6a0541e27635d8a56b7f72
     }
     &__container{
         max-width: 1000px;
     }
+<<<<<<< HEAD
     &__right{
         padding-left:80px;
     }
     &__left{
         padding-right:80px;
     }
+=======
+    &__content{
+        padding-left: 80px;
+    }
+    .display-none{
+        display: none;
+    }
+  
+>>>>>>> 6b1160f54bfc05c10c6a0541e27635d8a56b7f72
 }

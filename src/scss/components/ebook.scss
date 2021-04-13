@@ -1,0 +1,23 @@
+.ebook{
+    padding: 115px 0 120px;
+    &__btn{
+        margin-top:20px;
+    }
+    &__btn{
+        @include font($color-white,16px,normal,$font-noto);
+        background-color: $color-lightGreen;
+        text-align: center;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        padding: 15px 25px;
+        margin-top:20px ;
+    }
+    &__btn:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: $color-white;
+        color: $color-lightGreen;
+        border: 1px solid $color-lightGreen;
+    }
+}

@@ -1,0 +1,35 @@
+.get{
+    padding: 115px 0 125px;
+    background-image: url(../img/png/get.png);
+    background-position: center;
+    background-size: cover;
+    &__title{
+        color: $color-white;
+        text-align: center;
+    }
+    &__description{
+        @include font($color-white,18px,normal,$font-noto);
+        text-align: center;
+        margin: 26px 0 18px;
+    }
+    &__button{
+        text-align: center;
+    }
+    &__btn{
+        @include font($color-green,16px,normal,$font-noto);
+        background-color: $color-pink;
+        text-align: center;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        padding: 15px 25px;
+        margin-top:20px ;
+    }
+    &__btn:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        background-color: $color-white;
+        color: $color-lightGreen;
+        border: 1px solid $color-pink;
+    }
+}
