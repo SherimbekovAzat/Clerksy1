@@ -6,7 +6,6 @@
     align-items: center;
   }
   &__title {
-<<<<<<< HEAD
     font-family: "Josefin Sans", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -20,21 +19,17 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
-=======
     @include font($color-white, 48px, 600, $font-jose);
-    margin: 120px 0 20px;
+    margin: 18px 0 20px;
   }
   &__description {
     @include font($color-white, 18px, normal, $font-noto);
->>>>>>> 6b1160f54bfc05c10c6a0541e27635d8a56b7f72
     color: $color-white;
   }
   &__img {
     position: absolute;
     bottom: 0;
   }
-<<<<<<< HEAD
-=======
   .star--big,
   .star--orange,
   .star--pink,
@@ -67,5 +62,4 @@
       opacity: 0;
     }
   }
->>>>>>> 6b1160f54bfc05c10c6a0541e27635d8a56b7f72
 }
